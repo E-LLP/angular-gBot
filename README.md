@@ -10,7 +10,7 @@ AngularJS directive for Googlebot integration
  This service detects if Googlebot is crawling the page. It searches through all states, finds the right one and redirects to it.  
  
  Note: You must enable hashprefix in order to comply with Google standards ( .config([...]){ $locationProvider.hashPrefix('!'); }))  
-and don't forget to put fragment meta tag: <meta name="fragment" content="!">  
+and don't forget to put fragment meta tag: &lt;meta name="fragment" content="!"&gt;  
    
  1.) Include "googleBot" as a dependancy in your Angular application   
  2.) Add service name (gBot) where you run the app   
