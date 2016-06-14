@@ -31,7 +31,7 @@ angular.module('myApp', [
 		})
 		.state('messages', {
 			url: '^/messages',
-			template: '<div><h1>Messages</h1><p>You have no new messages</p><small>This is substate</small><button ui-sref="messages()">Prev</button></div>',
+			template: '<div><h1>Messages</h1><p>You have no new messages</p><small>This is substate</small><button ui-sref="notifications()">Prev</button></div>',
 		});
 
 }])

@@ -1,5 +1,5 @@
 # angular-gBot
-AngularJS directive for Googlebot integration
+AngularJS service for Googlebot integration
 
 #Requirements
  angular (tested on Angular v1.3.14)  
